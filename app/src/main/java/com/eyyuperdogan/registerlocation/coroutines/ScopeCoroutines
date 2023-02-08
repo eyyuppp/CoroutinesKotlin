@@ -1,0 +1,49 @@
+ /*
+
+      GlobalScope.launch {
+          repeat(100000){
+              launch {
+               println("Eyyüp")
+              }
+          }
+      }
+
+     */
+
+
+
+       /*
+       //runBlocking
+        println("run blocking start")
+        runBlocking {
+            launch {
+                delay(5000)
+                println("run blocking")
+            }
+        }
+        println("run blocking end")
+        */
+
+
+
+        /*
+      //GlobalScope
+        println("GlobalScope start")
+        GlobalScope.launch() {
+                delay(5000)
+                println("GlobalScope ")
+            }
+        println("GlobalScope end")
+
+         */
+
+
+        /*
+        //CoroutineScope
+        println("CoroutineScope start")
+        CoroutineScope(Dispatchers.Default).launch() {
+            delay(5000)
+            println("CoroutineScope ")
+        }
+        println("CoroutineScope end")
+         */
